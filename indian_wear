@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: 500px;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(224, 68, 68);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #bd4747;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: rgb(233, 228, 228);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Slideshow indian Wear</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://i.pinimg.com/originals/5e/eb/3c/5eeb3c2e7bf47abf42644f3c4a08034a.jpg" width="500px" height="500px">
+    <h4 style="font-family:gill sans; text-align:justify;"><br>Saree, in Sanskrit, translates as “strip of cloth”, <br>
+        <br>and it usually measures six to eight meters in length.<br>
+       <br>  The garment is believed to have originated in the Indus Valley as early as 2800 BC, <br>
+        <br> and today represents the national dress of countries such as India, Nepal, Sri Lanka, and Bangladesh.</h4>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://www.lavanyathelabel.com/cdn/shop/products/lbl101ks486_17.jpg?v=1672239878" width="500px" height="500px">
+    <h4 style="font-family:gill sans; text-align:justify;">
+        <br> A kurta is a long, loose shirt commonly worn in South Asia. <br>
+        <br>In Indian cities, it's very common for both men and women to wear kurtas with jeans.  <br>
+       <br>  A kurta is a kind of tunic, or long, collarless top.   <br>
+        <br> In various South Asian countries, kurtas are worn with loose trousers called shalwars or tighter pants known as churidars.<br> </h4>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://i.etsystatic.com/21403563/r/il/24ca6d/3882501320/il_570xN.3882501320_h45q.jpg" width="500px" height="500px">
+    <h4 style="font-family:gill sans; text-align:justify;">
+        <br>  The lehenga, lehnga or langa or लेहंगा (also known as a ghagra, chaniyo, Paro, paavada, or lacha) is
+         a form of ankle-length skirt from the Indian subcontinent. <br>
+        <br> Different patterns and styles of traditional embroidery are used to decorate lehenga. 
+        Gota patti embroidery is often used for festivals and weddings. <br>
+       <br>    Lehenga is not just an outfit but an art! It is the most coveted outfit for festivals, weddings, or special occasions, and it comes <br>
+        <br>with intricate embroidery, prints, and embellishments. Lehengas gets influenced by every style and trend of the season. <br> </h4>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://i.etsystatic.com/22530206/r/il/eb2ed0/3284682258/il_fullxfull.3284682258_6wq2.jpg" width="500px" height="500px">
+    <h4 style="font-family:gill sans; text-align:justify;">
+        <br>  Anarkalis are a type of traditional Indian clothing that dates back to the Mughal era. The dress is made up of a long, <br>
+        <br> flowing frock-style top that stretches out from the waist down. It is often worn with a churidar bottom and a dupatta <br>
+       <br> Choose Anarkali suits paired with palazzo pants or skirts to create a harmonious silhouette.  <br>
+        <br> A fitted bodice and flared bottom will accentuate your waist and add grace to your overall look.<br></h4>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://static.cilory.com/549462-thickbox_default/cream-silk-top-chanderi-long-skirt-with-belt.jpg" width="500px" height="500px">
+    <h4 style="font-family:gill sans; text-align:justify;">
+        <br>.A skirt is the lower part of a dress or a separate outer garment that covers a person from the waist downwards.  <br>
+        <br>worn especially by women and girls. some part resembling or suggesting the skirt of a garment<br>
+       <br>as the flared lip of a bell or a protective and ornamental cloth strip covering the legs of furniture. <br>
+       <br>  Skirts are available in the different style like long, short; narrow, wide and so on. So, knows about the various types of skirts and chooses the right one.<br></h4>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://static.cilory.com/706991-thickbox_default/satin-silk-embroidered-indowestern-crop-top-dhoti-with-shrug.jpg.webp" width="500px" height="500px">
+    <h4 style="font-family:gill sans; text-align:justify;">
+        <br>The dhoti, also known as veshti, mardani, dhotar, jaiñboh, or panchey, is a piece of cloth arranged around the legs to resemble trousers. <br>
+        <br>The airy fabric of dhotis allows heat and moisture to escape, keeping you cool, dry, and comfortable throughout your practice. <br>
+       <br> This enhanced breathability not only helps regulate body temperature but also prevents the accumulation of sweat, reducing the risk of skin irritations and discomfort.  <br>
+        <br> <br></h4>
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src= "https://i.pinimg.com/originals/5e/eb/3c/5eeb3c2e7bf47abf42644f3c4a08034a.jpg" width="100px" height="100px" onclick="currentSlide(1)" alt="SAREE">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.lavanyathelabel.com/cdn/shop/products/lbl101ks486_17.jpg?v=1672239878" width="100px" height="100px" onclick="currentSlide(2)" alt="KURTA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.etsystatic.com/21403563/r/il/24ca6d/3882501320/il_570xN.3882501320_h45q.jpg" width="100px" height="100px" onclick="currentSlide(3)" alt="LEHENGA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i.etsystatic.com/22530206/r/il/eb2ed0/3284682258/il_fullxfull.3284682258_6wq2.jpg" width="100px" height="100px"onclick="currentSlide(4)" alt="ANARKALI">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://static.cilory.com/549462-thickbox_default/cream-silk-top-chanderi-long-skirt-with-belt.jpg" width="100px" height="100px" onclick="currentSlide(5)" alt="SKIRT TOP">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://static.cilory.com/706991-thickbox_default/satin-silk-embroidered-indowestern-crop-top-dhoti-with-shrug.jpg.webp" width="100px" height="100px" onclick="currentSlide(6)" alt="DHOTI PANT">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
