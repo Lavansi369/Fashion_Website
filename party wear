@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>PARTY WEAR</h1>
+<hr>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="https://nolabels.in/cdn/shop/files/293_5236188e-4123-44c6-95ab-76cac100526d.jpg?v=1710933720&width=1080" style="width:100%">
+      <h3>Dance Party </h3>
+      <p>Think trendy dresses, heels, halter tops, glitter
+         and all the sparkle. Accessories are a must.
+          It's time to club it like you mean it.
+         The smart-casual vibe can be a fine balancing act,
+          but will help you get into most nightclubs.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="file:///C://Users//ishik//OneDrive//Desktop//function.jpg"  style="width:100%">
+      <h3>Wedding party</h3>
+      <p>Women wedding guests should wear a full-length dress,
+         be it a ballgown, a sheath or an A-line style.
+          High heels are strongly recommended. Feel free to accessorize 
+          with opulent jewelry and even elbow-length white silk gloves.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="file:///C://Users//ishik//OneDrive//Desktop//tea.jpg" style="width:100%">
+      <h3>Tea Party</h3>
+      <p>You can try a fitted pencil skirt, a flowing maxi skirt
+         or a skirt with a flared hem. Tailored trousers can
+          also work exceedingly well for a tea party, but pay 
+          close attention to fabric and fit. As for the top,
+           you can pair any of these looks with a blouse, 
+           button down or simple black shirt.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="C:\\Users\\ishik\\OneDrive\\Desktop\\dance.jpg" style="width:100%">
+      <h3>Cocktail Party</h3>
+      <p>For cocktail dresses, opt for well-fitted styles 
+        that hit anywhere from midthigh to ankle.
+         Some classic cocktail-dress silhouettes include A-line,
+         sheath, wrap, empire and slip, but you can of course 
+         step outside of these bounds—as long as 
+         the dress reads as stylish and elegant</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
