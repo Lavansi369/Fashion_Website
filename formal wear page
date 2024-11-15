@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<h2 style="font-family:lucida handwriting; color:rgb(3, 3, 41)"></h2>
+
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://i5.walmartimages.com/asr/1422d472-be4a-4fe7-9ab9-d63b62f87776.54c1a9eb47e28f727315b2d2ba1fb367.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" width="400px" height="400px">
+      <div class="container">
+        <h2>one piece</h2>
+        <p class="title">comfy office wear</p>
+        <p>one piece dress for women embodies elegance, simplicity, and versatility,<br>
+             making them a staple in every fashion-conscious woman's wardrobe.<br>
+              These dresses seamlessly blend comfort and style,<br>
+               offering a multitude of options for various occasions, <br>
+               from casual day outings to formal evening events.</p>
+        
+        <p><button class="button">refer more -- https://www.myntra.com/one-piece-dresses</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/eb7b808f-82cc-4ad9-acd9-7d62de12162e._SL480_.jpg" width="400px" height="400px">
+      <div class="container">
+        <h2>Shirt Pant</h2>
+        <p class="title">gracefull wear</p>
+        <p>The jeans should be crisp and wrinkle-free, <br>
+            and pairing the shirt with dressier shoes and accessories<br>
+             like a belt or watch can help balance the shirt's formality <br>
+             with the jeans' casualness. Opting for neutral colours like<br>
+              white, light blue or grey for the shirt can also make <br>
+              the combination look more polished.</p>
+        
+        <p><button class="button">refer more--https://www.amazon.in/formal-wear-for-women-office/s?k=formal+wear+for+women+office</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://img.kwcdn.com/product/fancy/950a668d-6856-4cbb-8492-7867afc153ca.jpg?imageView2/2/w/500/q/60/format/webp"  width="400px" height="400px">
+      <div class="container">
+        <h2>winter formal coats</h2>
+        <p class="title">Warm Wear</p>
+        <p>One way to help style up a winter coat, <br>
+            is to dress up the items you can even with a coat on.<br>
+             We've mentioned adding bright colored accessories,<br>
+              but with this tip I recommend taking fancier accessories ,<br>
+              and using those to your advantage. Adding a nicer hat <br>
+              or a beret is one of these ways..</p>
+        
+        <p><button class="button">refer more--https://www.ajio.com/find/Long-Coat-For-Women</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
